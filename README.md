@@ -27,20 +27,20 @@ GraphQL is the library by facebook to provide easy access to data. it is the rep
 https://github.com/chentsulin/awesome-graphql/edit/master/README.md
 
 # Query Structure
-  {
+  ```{
     latestPost {
       title,
       summary
     }
-  }
+  }```
 # Query result
-  {
+  ```{
     "data": {
       "latestPost": {
         "title": "New Feature: Tracking Error Status with Kadira",
         "summary": "Lot of users asked us to add a feature to set status for errors in the Kadira Error Manager. Now, we've that functionality."
       }
     }
-  }
+  }```
 # read more on how to use graphql
 https://learngraphql.com/basics/introduction
